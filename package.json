@@ -1,0 +1,28 @@
+{
+    "name": "nested-object",
+    "version": "0.0.1",
+    "author": "WhiteTrefoil <whitetrefoil@gmail.com>",
+    "description": "attributes access helper functions for nested objects",
+    "scripts": {
+        "test": "mocha -R Spec -c --compilers coffee:coffee-script test/specs"
+    },
+    "main": "./lib/nested-object",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/whitetrefoil/nested-object.git"
+    },
+    "keywords": [
+        "object",
+        "nested",
+        "helper"
+    ],
+    "devDependencies": {
+        "coffee-script"    :  ">= 1.6.3",
+        "mocha" :  ">= 1.13.0",
+        "chai": ">= 1.8.1"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">= 0.10.21"
+    }
+}
