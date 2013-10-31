@@ -45,3 +45,6 @@ temp/
 
 # Middleman Build Folder
 build/
+
+# Node.js modules
+node_modules/
